@@ -1,6 +1,6 @@
 package ru.abstract_class;
 
-public abstract class Bird {
+public abstract class Bird implements Voiceble, Flyble {
 
     String color;
 
@@ -9,6 +9,8 @@ public abstract class Bird {
     }
 
     public abstract void fly();
+    public abstract void voice();
+
 
 
 }
